@@ -1,0 +1,32 @@
+.user {
+    padding: 16px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin: 12px 0;
+    background-color: white;
+}
+
+.user__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user__avatar {
+    height: 40px;
+    width: 40px;
+    background-color: #dbdbdb;
+    border-radius: 50%;
+    border: 1px solid white;
+    overflow: hidden;
+    margin-right: 8px;
+}
+
+.user__avatar img {
+    display: block;
+}
+
+.user__status{
+    margin-right: 8px;
+}
